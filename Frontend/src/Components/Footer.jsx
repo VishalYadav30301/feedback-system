@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
   return (
     <footer>
-        <p>@sundram 2024</p>
+        <p>@Vishalyadav 2024</p>
     </footer>
   )
 }
