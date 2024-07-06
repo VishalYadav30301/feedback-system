@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom'
 import Home from './pages/Home'
 import {Login} from './pages/Login'
 import About from './pages/About'
@@ -21,7 +21,8 @@ import {AdminContacts} from './pages/AdminContacts'
 function App() {
    
   return (
-  <>
+  < >
+
     <BrowserRouter>
     <Navbar/>
       <Routes>
@@ -45,6 +46,7 @@ function App() {
       <Footer/>
     </BrowserRouter>
   </>
+
   )
 }
 
